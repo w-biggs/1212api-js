@@ -1,0 +1,284 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Team Organization
+
+model Level {
+  id            Int           @id @default(autoincrement())
+  levelName     String        @db.VarChar(255)
+  abbreviation  String        @db.VarChar(10)
+  conferences   Conference[]
+}
+
+model Conference {
+  id            Int         @id @default(autoincrement())
+  confName      String      @db.VarChar(255)
+  shortName     String      @db.VarChar(50)
+  level         Level       @relation(fields: [levelId], references: [id])
+  levelId       Int
+  divisions     Division[]
+  divHistory    ConfDivHistory[]
+}
+
+model Division {
+  id            Int         @id @default(autoincrement())
+  divName       String      @db.VarChar(255)
+  conference    Conference  @relation(fields: [conferenceId], references: [id])
+  conferenceId  Int
+  teams         Team[]
+  confHistory   ConfDivHistory[]
+  teamHistory   TeamDivHistory[]
+}
+
+model Team {
+  id            Int       @id @default(autoincrement())
+  school        String    @db.VarChar(255)
+  nickname      String    @db.VarChar(255)
+  shortSchool   String    @db.VarChar(50)
+  abbreviation  String    @db.VarChar(10)
+  color         String    @db.Char(7)
+  division      Division  @relation(fields: [divisionId], references: [id])
+  divisionId    Int
+  divHistory    TeamDivHistory[]
+  seasonMetrics TeamMetricsSeason[]
+  games         GameTeam[]
+}
+
+// Team Organization History
+
+model ConfDivHistory {
+  conference    Conference  @relation(fields: [conferenceId], references: [id])
+  conferenceId  Int
+  division      Division    @relation(fields: [divisionId], references: [id])
+  divisionId    Int
+  season        Season      @relation(fields: [seasonNo], references: [seasonNo])
+  seasonNo      Int
+  @@id([conferenceId, divisionId, seasonNo])
+}
+
+model TeamDivHistory {
+  team          Team        @relation(fields: [teamId], references: [id])
+  teamId        Int
+  division      Division    @relation(fields: [divisionId], references: [id])
+  divisionId    Int
+  season        Season      @relation(fields: [seasonNo], references: [seasonNo])
+  seasonNo      Int
+  @@id([teamId, divisionId, seasonNo])
+}
+
+// Schedule Organization
+
+model Season {
+  seasonNo      Int               @id
+  weeks         Week[]
+  confDivs      ConfDivHistory[]
+  divTeams      TeamDivHistory[]
+  teamMetrics   TeamMetricsSeason[]
+}
+
+model Week {
+  weekNo    Int
+  season    Season    @relation(fields: [seasonNo], references: [seasonNo])
+  seasonNo  Int
+  weekName  String?   @db.VarChar(255)
+  games     Game[]
+  @@id([weekNo, seasonNo])
+}
+
+// Coach Data
+
+model Coach {
+  id              Int       @id @default(autoincrement())
+  primaryUsername String
+  usernames       String[]
+  offPlays        Play[]    @relation("OffCoach")
+  defPlays        Play[]    @relation("DefCoach")
+  mtrics          CoachMetricsGame[]
+}
+
+// Game Data
+
+model Game {
+  id          Int       @id @default(autoincrement())
+  week        Week      @relation(fields: [weekNo, seasonNo], references: [weekNo, seasonNo])
+  weekNo      Int
+  seasonNo    Int
+  isNeutral   Boolean
+  gameTeams   GameTeam[]
+  gameThreads GameThread[]
+}
+
+model GameTeam {
+  game          Game            @relation(fields: [gameId], references: [id])
+  gameId        Int
+  team          Team            @relation(fields: [teamId], references: [id])
+  teamId        Int
+  isHome        Boolean
+  threadTeam    GameThreadTeam
+  metrics       TeamMetricsGame
+  coachMetrics  CoachMetricsGame
+  quarters      GameTeamQuarter[]
+  @@id([gameId, teamId])
+  @@unique([gameId, isHome])
+}
+
+model GameThread {
+  id        String    @id @db.VarChar(20)
+  game      Game      @relation(fields: [gameId], references: [id])
+  gameId    Int
+  startTime DateTime
+  endTime   DateTime
+  isLive    Boolean
+  teams     GameThreadTeam[]
+  plays     Play[]
+}
+
+enum OffenseScheme {
+  FLEXBONE
+  PISTOL
+  PRO
+  SPREAD
+  AIR
+}
+
+enum DefenseScheme {
+  DS_52
+  DS_44
+  DS_43
+  DS_34
+  DS_33
+}
+
+model GameThreadTeam {
+  gameTeam        GameTeam?       @relation(fields: [gameId, teamId], references: [gameId, teamId]) // should be req but prisma doesnt let me
+  gameId          Int
+  teamId          Int
+  thread          GameThread      @relation(fields: [threadId], references: [id])
+  threadId        String          @db.VarChar(20)
+  offenseScheme   OffenseScheme
+  defenseScheme   DefenseScheme
+  @@id([gameId, teamId, threadId])
+}
+
+model GameTeamQuarter {
+  gameTeam        GameTeam?       @relation(fields: [gameId, teamId], references: [gameId, teamId]) // should be req but prisma doesnt let me
+  gameId          Int
+  teamId          Int
+  quarter         Int
+  score           Int
+  @@id([gameId, teamId])
+}
+
+// Plays
+
+enum PlayType {
+	RUN
+	PASS
+	PUNT
+	FIELD_GOAL
+	KNEEL
+	SPIKE
+	PAT
+	TWO_POINT
+	KICKOFF_NORMAL
+	KICKOFF_SQUIB
+	KICKOFF_ONSIDE
+	DELAY_OF_GAME
+}
+
+enum Result {
+	GAIN
+	TURNOVER
+	TOUCHDOWN
+	TURNOVER_TOUCHDOWN
+	INCOMPLETE
+	TOUCHBACK
+	FIELD_GOAL
+	MISS
+	PAT
+	TWO_POINT
+	KICKOFF
+	PUNT
+	KICK
+	SPIKE
+	KNEEL
+	SAFETY
+	ERROR
+	TURNOVER_PAT
+	END_HALF
+	DELAY_OF_GAME
+}
+
+enum Timeout {
+  OFFENSE
+  DEFENSE
+  NONE
+}
+
+model Play {
+  thread          GameThread      @relation(fields: [threadId], references: [id])
+  threadId        String          @db.VarChar(20)
+  playNo          Int
+  homeOffense     Boolean
+  commentId       String          @db.VarChar(20)
+  offCoach        Coach           @relation(name: "OffCoach", fields: [offCoachId], references: [id])
+  offCoachId      Int
+  defCoach        Coach           @relation(name: "DefCoach", fields: [defCoachId], references: [id])
+  defCoachId      Int
+  playType        PlayType
+  result          Result
+  yardsGained     Int
+  down            Int
+  distance        Int
+  yardLine        Int
+  quarter         Int
+  clock           Int
+  playLength      Int
+  offNumber       Int
+  defNumber       Int
+  offNumberTime   DateTime
+  defNumberTime   DateTime
+  timeout         Timeout
+  @@id([threadId, playNo])
+}
+
+// Metrics
+
+model TeamMetricsSeason {
+  team        Team    @relation(fields: [teamId], references: [id])
+  teamId      Int
+  season      Season  @relation(fields: [seasonNo], references: [seasonNo])
+  seasonNo    Int
+  wPN         Float
+  PN          Float
+  @@id([teamId, seasonNo])
+}
+
+model TeamMetricsGame {
+  team        GameTeam?    @relation(fields: [teamId, gameId], references: [teamId, gameId]) // req
+  teamId      Int
+  gameId      Int
+  oldElo      Float
+  elo         Float
+  @@id([teamId, gameId])
+}
+
+model CoachMetricsGame {
+  team        GameTeam?    @relation(fields: [teamId, gameId], references: [teamId, gameId]) // req
+  teamId      Int
+  gameId      Int
+  coach       Coach        @relation(fields: [coachId], references: [id])
+  coachId     Int
+  oldElo      Float
+  elo         Float
+  @@id([teamId, gameId, coachId])
+}

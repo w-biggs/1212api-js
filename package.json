@@ -1,0 +1,15 @@
+{
+  "name": "1212-api",
+  "version": "0.2.0",
+  "description": "1212's API.",
+  "main": "dist/server.js",
+  "author": "WB",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "prisma": "^3.5.0"
+  }
+}
