@@ -1,1073 +1,1073 @@
 [
-  {
-    "name": "Stony Brook",
-    "abbreviation": "SBU",
-    "color": "#990000",
-    "divs": [
-      null, 1, 3, 3, 3, 3
-    ]
-  },
-  {
-    "name": "Fordham",
-    "abbreviation": "FDHM",
-    "color": "#95003A",
-    "divs": [
-      null, 1, 3, 3, 3, 3
-    ]
-  },
-  {
-    "name": "Sacred Heart",
-    "abbreviation": "SHU",
-    "color": "#CD1041",
-    "divs": [
-      null, 1, 3, 3, 3, 3
-    ]
-  },
-  {
-    "name": "Long Island",
-    "abbreviation": "LIU",
-    "color": "#3d9be1",
-    "divs": [
-      null, null, 3, 3, 3, 3
-    ]
-  },
-  {
-    "name": "Albany",
-    "abbreviation": "UA",
-    "color": "#46166B",
-    "divs": [
-      null, 1, 3, 3, 3, 3
-    ]
-  },
-  {
-    "name": "Central Connecticut",
-    "abbreviation": "CCSU",
-    "color": "#1A4784",
-    "shortName": "Central CT",
-    "divs": [
-      null, 1, 3, 3, 3, 3
-    ]
-  },
-  {
-    "name": "Mississippi Valley State",
-    "abbreviation": "MVSU",
-    "color": "#046A38",
-    "shortName": "Miss. Valley St.",
-    "divs": [
-      null, 11, 11, 11, 11, 11
-    ]
-  },
-  {
-    "name": "Southern Illinois",
-    "abbreviation": "SIU",
-    "color": "#720000",
-    "divs": [
-      null, 5, 11, 11, 11, 11
-    ]
-  },
-  {
-    "name": "Arkansas-Pine Bluff",
-    "abbreviation": "UAPB",
-    "color": "#EEB310",
-    "shortName": "Ark.-Pine Bluff",
-    "divs": [
-      null, 11, 11, 11, 11, 11
-    ]
-  },
-  {
-    "name": "Jackson State",
-    "abbreviation": "JSUMS",
-    "color": "#002147",
-    "divs": [
-      null, 11, 11, 11, 11, 11
-    ]
-  },
-  {
-    "name": "Alcorn State",
-    "abbreviation": "ASU",
-    "color": "#46166A",
-    "divs": [
-      null, 11, 11, 11, 11, 11
-    ]
-  },
-  {
-    "name": "Southeast Missouri",
-    "abbreviation": "SEMO",
-    "color": "#C8102E",
-    "shortName": "SE Missouri",
-    "divs": [
-      null, 11, 11, 11, 11, 11
-    ]
-  },
-  {
-    "name": "Central Arkansas",
-    "abbreviation": "UCA",
-    "color": "#4F2D7F",
-    "divs": [
-      null, 11, 11, 11, 11, 11
-    ]
-  },
-  {
-    "name": "Jacksonville State",
-    "abbreviation": "JSU",
-    "color": "#CC0000",
-    "shortName": "Jacksonville St.",
-    "divs": [
-      null, 13, 14, 14, 14, 17
-    ]
-  },
-  {
-    "name": "Alabama A&M",
-    "abbreviation": "AAMU",
-    "color": "#660000",
-    "divs": [
-      null, 13, 14, 14, 14, 17
-    ]
-  },
-  {
-    "name": "Samford",
-    "abbreviation": "SAM",
-    "color": "#C4161D",
-    "divs": [
-      null, 13, 14, 14, 14, 17
-    ]
-  },
-  {
-    "name": "North Alabama",
-    "abbreviation": "UNA",
-    "color": "#46166B",
-    "divs": [
-      null, null, null, 14, 14, 17
-    ]
-  },
-  {
-    "name": "Chattanooga",
-    "abbreviation": "UTC",
-    "color": "#00386B",
-    "divs": [
-      null, 13, 14, 14, 14, 17
-    ]
-  },
-  {
-    "name": "East Tennessee State",
-    "abbreviation": "ETSU",
-    "color": "#041E42",
-    "shortName": "ETSU",
-    "divs": [
-      null, 13, 14, 14, 14, 17
-    ]
-  },
-  {
-    "name": "Alabama State",
-    "abbreviation": "ALASU",
-    "color": "#C99700",
-    "divs": [
-      null, 13, 15, 14, 14, 17
-    ]
-  },
-  {
-    "name": "VMI",
-    "abbreviation": "VMI",
-    "color": "#AE122A",
-    "divs": [
-      null, 19, 19, 19, 19, 19
-    ]
-  },
-  {
-    "name": "Delaware",
-    "abbreviation": "UDEL",
-    "color": "#00539F",
-    "divs": [
-      null, 19, 19, 19, 19, 19
-    ]
-  },
-  {
-    "name": "Delaware State",
-    "abbreviation": "DESU",
-    "color": "#EE3124",
-    "divs": [
-      null, 19, 19, 19, 19, 19
-    ]
-  },
-  {
-    "name": "James Madison",
-    "abbreviation": "JMU",
-    "color": "#450084",
-    "divs": [
-      null, 19, 19, 19, 19, 19
-    ]
-  },
-  {
-    "name": "William & Mary",
-    "abbreviation": "WM",
-    "color": "#115740",
-    "divs": [
-      null, 19, 19, 19, 19, 19
-    ]
-  },
-  {
-    "name": "Richmond",
-    "abbreviation": "UR",
-    "color": "#C32032",
-    "divs": [
-      null, 19, 19, 19, 19, 19
-    ]
-  },
-  {
-    "name": "Bethune-Cookman",
-    "abbreviation": "B-CU",
-    "color": "#6F263D",
-    "shortName": "Bethune-Cook.",
-    "divs": [
-      null, 13, 15, 15, 15, 16
-    ]
-  },
-  {
-    "name": "Kennesaw State",
-    "abbreviation": "KSU",
-    "color": "#0B1315",
-    "divs": [
-      null, 13, 15, 15, 15, 16
-    ]
-  },
-  {
-    "name": "Campbell",
-    "abbreviation": "CAMP",
-    "color": "#E87722",
-    "divs": [
-      null, 13, 14, 15, 15, 16
-    ]
-  },
-  {
-    "name": "Mercer",
-    "abbreviation": "MERC",
-    "color": "#CB5307",
-    "divs": [
-      null, 13, 15, 15, 15, 16
-    ]
-  },
-  {
-    "name": "Florida A&M",
-    "abbreviation": "FAMU",
-    "color": "#F4811F",
-    "divs": [
-      null, 13, 15, 15, 15, 16
-    ]
-  },
-  {
-    "name": "Stetson",
-    "abbreviation": "STET",
-    "color": "#006747",
-    "divs": [
-      null, 13, 15, 15, 15, 16
-    ]
-  },
-  {
-    "name": "Jacksonville",
-    "abbreviation": "JU",
-    "color": "#084E44",
-    "divs": [
-      null, 13, 15, 15, 15, 16
-    ]
-  },
-  {
-    "name": "Princeton",
-    "abbreviation": "PRIN",
-    "color": "#FF671F",
-    "divs": [
-      null, 20, 20, 20, 20, 20
-    ]
-  },
-  {
-    "name": "Penn",
-    "abbreviation": "PENN",
-    "color": "#990000",
-    "divs": [
-      null, 20, 20, 20, 20, 20
-    ]
-  },
-  {
-    "name": "Yale",
-    "abbreviation": "YALE",
-    "color": "#00356b",
-    "divs": [
-      null, 20, 20, 20, 20, 20
-    ]
-  },
-  {
-    "name": "Brown",
-    "abbreviation": "BRWN",
-    "color": "#381C00",
-    "divs": [
-      null, 20, 20, 20, 20, 20
-    ]
-  },
-  {
-    "name": "Dartmouth",
-    "abbreviation": "DART",
-    "color": "#005F2F",
-    "divs": [
-      null, 20, 20, 20, 20, 20
-    ]
-  },
-  {
-    "name": "Columbia",
-    "abbreviation": "COLU",
-    "color": "#99CAEA",
-    "divs": [
-      null, 20, 20, 20, 20, 20
-    ]
-  },
-  {
-    "name": "Harvard",
-    "abbreviation": "HARV",
-    "color": "#A51C30",
-    "divs": [
-      null, 20, 20, 20, 20, 20
-    ]
-  },
-  {
-    "name": "Cornell",
-    "abbreviation": "CU",
-    "color": "#B31B1B",
-    "divs": [
-      null, 20, 20, 20, 20, 20
-    ]
-  },
-  {
-    "name": "Monmouth",
-    "abbreviation": "MON",
-    "color": "#041E42",
-    "divs": [
-      null, 22, 22, 22, 22, 22
-    ]
-  },
-  {
-    "name": "Wagner",
-    "abbreviation": "WAG",
-    "color": "#004331",
-    "divs": [
-      null, 22, 22, 22, 22, 22
-    ]
-  },
-  {
-    "name": "Hampton",
-    "abbreviation": "HU",
-    "color": "#265198",
-    "divs": [
-      null, 22, 22, 22, 22, 22
-    ]
-  },
-  {
-    "name": "Howard",
-    "abbreviation": "HOW",
-    "color": "#003A63",
-    "divs": [
-      null, 22, 22, 22, 22, 22
-    ]
-  },
-  {
-    "name": "Georgetown",
-    "abbreviation": "GTU",
-    "color": "#00205C",
-    "divs": [
-      null, 22, 22, 22, 22, 22
-    ]
-  },
-  {
-    "name": "Norfolk State",
-    "abbreviation": "NSU",
-    "color": "#007A53",
-    "divs": [
-      null, 22, 22, 22, 22, 22
-    ]
-  },
-  {
-    "name": "Lehigh",
-    "abbreviation": "LEHI",
-    "color": "#4B2913",
-    "divs": [
-      null, 21, 21, 21, 21, 21
-    ]
-  },
-  {
-    "name": "Marist",
-    "abbreviation": "MAR",
-    "color": "#C8102E",
-    "divs": [
-      null, 21, 21, 21, 21, 21
-    ]
-  },
-  {
-    "name": "Colgate",
-    "abbreviation": "COLG",
-    "color": "#862633",
-    "divs": [
-      null, 21, 21, 21, 21, 21
-    ]
-  },
-  {
-    "name": "St. Francis",
-    "abbreviation": "SFU",
-    "color": "#BD1F25",
-    "divs": [
-      null, 21, 21, 21, 21, 21
-    ]
-  },
-  {
-    "name": "Bucknell",
-    "abbreviation": "BCK",
-    "color": "#EF5B0C",
-    "divs": [
-      null, 21, 21, 21, 21, 21
-    ]
-  },
-  {
-    "name": "Lafayette",
-    "abbreviation": "LAF",
-    "color": "#910029",
-    "divs": [
-      null, 21, 21, 21, 21, 21
-    ]
-  },
-  {
-    "name": "Holy Cross",
-    "abbreviation": "CHC",
-    "color": "#602D89",
-    "divs": [
-      null, 1, 2, 2, 2, 2
-    ]
-  },
-  {
-    "name": "Maine",
-    "abbreviation": "UME",
-    "color": "#B0D7FF",
-    "divs": [
-      null, 1, 2, 2, 2, 2
-    ]
-  },
-  {
-    "name": "Merrimack",
-    "abbreviation": "MU",
-    "color": "#06345b",
-    "divs": [
-      null, null, 2, 2, 2, 2
-    ]
-  },
-  {
-    "name": "New Hampshire",
-    "abbreviation": "UNH",
-    "color": "#001D52",
-    "divs": [
-      null, 1, 2, 2, 2, 2
-    ]
-  },
-  {
-    "name": "Bryant",
-    "abbreviation": "BRY",
-    "color": "#231F20",
-    "divs": [
-      null, 1, 2, 2, 2, 2
-    ]
-  },
-  {
-    "name": "Rhode Island",
-    "abbreviation": "URI",
-    "color": "#002147",
-    "divs": [
-      null, 1, 2, 2, 2, 2
-    ]
-  },
-  {
-    "name": "North Carolina Central",
-    "abbreviation": "NCCU",
-    "color": "#862633",
-    "shortName": "NC Central",
-    "divs": [
-      null, 26, 27, 27, 27, 27
-    ]
-  },
-  {
-    "name": "Davidson",
-    "abbreviation": "DAV",
-    "color": "#BF0C26",
-    "divs": [
-      null, 26, 27, 27, 27, 27
-    ]
-  },
-  {
-    "name": "Gardner-Webb",
-    "abbreviation": "GWU",
-    "color": "#A6192E",
-    "divs": [
-      null, 26, 27, 27, 27, 27
-    ]
-  },
-  {
-    "name": "North Carolina A&T",
-    "abbreviation": "NCAT",
-    "color": "#004684",
-    "shortName": "NCAT",
-    "divs": [
-      null, 26, 27, 27, 27, 27
-    ]
-  },
-  {
-    "name": "Elon",
-    "abbreviation": "ELON",
-    "color": "#73000A",
-    "divs": [
-      null, 26, 27, 27, 27, 27
-    ]
-  },
-  {
-    "name": "Western Carolina",
-    "abbreviation": "WCU",
-    "color": "#592C88",
-    "divs": [
-      null, 26, 27, 27, 27, 27
-    ]
-  },
-  {
-    "name": "Wofford",
-    "abbreviation": "WOFF",
-    "color": "#886E4C",
-    "divs": [
-      null, 26, 28, 28, 28, 28
-    ]
-  },
-  {
-    "name": "Charleston Southern",
-    "abbreviation": "CSU",
-    "color": "#002855",
-    "shortName": "CSU",
-    "divs": [
-      null, 26, 28, 28, 28, 28
-    ]
-  },
-  {
-    "name": "The Citadel",
-    "abbreviation": "TC",
-    "color": "#3975B7",
-    "divs": [
-      null, 26, 28, 28, 28, 28
-    ]
-  },
-  {
-    "name": "South Carolina State",
-    "abbreviation": "SCSU",
-    "color": "#841A2B",
-    "shortName": "SC State",
-    "divs": [
-      null, 26, 28, 28, 28, 28
-    ]
-  },
-  {
-    "name": "Furman",
-    "abbreviation": "FURM",
-    "color": "#582C83",
-    "divs": [
-      null, 26, 28, 28, 28, 28
-    ]
-  },
-  {
-    "name": "Presbyterian",
-    "abbreviation": "PC",
-    "color": "#0060A9",
-    "divs": [
-      null, 26, 28, 28, 28, 28
-    ]
-  },
-  {
-    "name": "Villanova",
-    "abbreviation": "VILL",
-    "color": "#002664",
-    "divs": [
-      null, 18, 18, 18, 18, 18
-    ]
-  },
-  {
-    "name": "Duquesne",
-    "abbreviation": "DUQ",
-    "color": "#D31245",
-    "divs": [
-      null, 18, 18, 18, 18, 18
-    ]
-  },
-  {
-    "name": "Youngstown State",
-    "abbreviation": "YSU",
-    "color": "#C8102E",
-    "shortName": "Youngstown St.",
-    "divs": [
-      null, 18, 18, 18, 18, 18
-    ]
-  },
-  {
-    "name": "Towson",
-    "abbreviation": "TU",
-    "color": "#FFCC00",
-    "divs": [
-      null, 18, 18, 18, 18, 18
-    ]
-  },
-  {
-    "name": "Robert Morris",
-    "abbreviation": "RMU",
-    "color": "#14234B",
-    "divs": [
-      null, 18, 18, 18, 18, 18
-    ]
-  },
-  {
-    "name": "Morgan State",
-    "abbreviation": "MSU",
-    "color": "#002D74",
-    "divs": [
-      null, 18, 18, 18, 18, 18
-    ]
-  },
-  {
-    "name": "Murray State",
-    "abbreviation": "MURR",
-    "color": "#002144",
-    "divs": [
-      null, 12, 12, 12, 12, 12
-    ]
-  },
-  {
-    "name": "Austin Peay",
-    "abbreviation": "APSU",
-    "color": "#BA0C2F",
-    "divs": [
-      null, 12, 12, 12, 12, 12
-    ]
-  },
-  {
-    "name": "Eastern Kentucky",
-    "abbreviation": "EKU",
-    "color": "#4C151E",
-    "shortName": "EKU",
-    "divs": [
-      null, 12, 12, 12, 12, 12
-    ]
-  },
-  {
-    "name": "UT Martin",
-    "abbreviation": "UTM",
-    "color": "#002649",
-    "divs": [
-      null, 12, 12, 12, 12, 12
-    ]
-  },
-  {
-    "name": "Tennessee Tech",
-    "abbreviation": "TTU",
-    "color": "#4F2984",
-    "divs": [
-      null, 12, 12, 12, 12, 12
-    ]
-  },
-  {
-    "name": "Tennessee State",
-    "abbreviation": "TNSU",
-    "color": "#00539F",
-    "divs": [
-      null, 12, 12, 12, 12, 12
-    ]
-  },
-  {
-    "name": "Morehead State",
-    "abbreviation": "MORE",
-    "color": "#005EB8",
-    "divs": [
-      null, 12, 12, 12, 12, 12
-    ]
-  },
-  {
-    "name": "Savannah State",
-    "abbreviation": "SSU",
-    "color": "#F24D17",
-    "divs": [
-      null, 13, 14, null, null, null
-    ]
-  },
-  {
-    "name": "Northern Iowa",
-    "abbreviation": "UNI",
-    "color": "#4B116F",
-    "divs": [
-      null, 4, 6, 6, 6, 8
-    ]
-  },
-  {
-    "name": "Northern Colorado",
-    "abbreviation": "UNCO",
-    "color": "#013C65",
-    "shortName": "N. Colorado",
-    "divs": [
-      null, 9, 6, 6, 6, 8
-    ]
-  },
-  {
-    "name": "Eastern Illinois",
-    "abbreviation": "EIU",
-    "color": "#003399",
-    "divs": [
-      null, 5, 7, 7, 7, 8
-    ]
-  },
-  {
-    "name": "Dayton",
-    "abbreviation": "UD",
-    "color": "#CE1141",
-    "divs": [
-      null, 5, 7, 7, 7, 8
-    ]
-  },
-  {
-    "name": "Drake",
-    "abbreviation": "DRKE",
-    "color": "#003B73",
-    "divs": [
-      null, 4, 6, 6, 6, 8
-    ]
-  },
-  {
-    "name": "Valparaiso",
-    "abbreviation": "VLPO",
-    "color": "#381E0E",
-    "divs": [
-      null, 5, 7, 7, 7, 8
-    ]
-  },
-  {
-    "name": "Western Illinois",
-    "abbreviation": "WIU",
-    "color": "#663399",
-    "divs": [
-      null, 4, 7, 7, 7, 8
-    ]
-  },
-  {
-    "name": "Butler",
-    "abbreviation": "BUT",
-    "color": "#13294B",
-    "divs": [
-      null, 5, 7, 7, 7, 8
-    ]
-  },
-  {
-    "name": "Indiana State",
-    "abbreviation": "INSU",
-    "color": "#0142BC",
-    "divs": [
-      null, 5, 7, 7, 7, 8
-    ]
-  },
-  {
-    "name": "North Dakota State",
-    "abbreviation": "NDSU",
-    "color": "#005643",
-    "shortName": "NDSU",
-    "divs": [
-      null, 4, 6, 6, 6, 8
-    ]
-  },
-  {
-    "name": "Missouri State",
-    "abbreviation": "MOSU",
-    "color": "#5E0009",
-    "divs": [
-      null, 11, 11, 11, 11, 8
-    ]
-  },
-  {
-    "name": "South Dakota State",
-    "abbreviation": "SDSU",
-    "color": "#0032A0",
-    "shortName": "SDSU",
-    "divs": [
-      null, 4, 6, 6, 6, 8
-    ]
-  },
-  {
-    "name": "Illinois State",
-    "abbreviation": "ILSU",
-    "color": "#CE1126",
-    "divs": [
-      null, 5, 7, 7, 7, 8
-    ]
-  },
-  {
-    "name": "South Dakota",
-    "abbreviation": "USD",
-    "color": "#AD0000",
-    "divs": [
-      null, 4, 6, 6, 6, 8
-    ]
-  },
-  {
-    "name": "North Dakota",
-    "abbreviation": "UND",
-    "color": "#009A44",
-    "divs": [
-      null, 4, 6, 6, 6, 8
-    ]
-  },
-  {
-    "name": "St. Thomas",
-    "abbreviation": "STM",
-    "color": "#510C76",
-    "divs": [
-      null, null, null, null, null, 8
-    ]
-  },
-  {
-    "name": "Texas Southern",
-    "abbreviation": "TSU",
-    "color": "#6F263D",
-    "divs": [
-      null, 23, 23, 23, 23, 24
-    ]
-  },
-  {
-    "name": "Incarnate Word",
-    "abbreviation": "UIW",
-    "color": "#CB333B",
-    "divs": [
-      null, 23, 23, 23, 23, 24
-    ]
-  },
-  {
-    "name": "Stephen F. Austin",
-    "abbreviation": "SFASU",
-    "color": "#3F2A55",
-    "shortName": "SFA",
-    "divs": [
-      null, 23, 23, 23, 23, 24
-    ]
-  },
-  {
-    "name": "Abilene Christian",
-    "abbreviation": "ACU",
-    "color": "#4E2683",
-    "divs": [
-      null, 23, 23, 23, 23, 24
-    ]
-  },
-  {
-    "name": "McNeese State",
-    "abbreviation": "MCNSU",
-    "color": "#00529B",
-    "divs": [
-      null, 23, 23, 23, 23, 24
-    ]
-  },
-  {
-    "name": "Northwestern State",
-    "abbreviation": "NSULA",
-    "color": "#492F92",
-    "shortName": "NSULA",
-    "divs": [
-      null, 23, 23, 23, 23, 24
-    ]
-  },
-  {
-    "name": "Southeastern Louisiana",
-    "abbreviation": "SLU",
-    "color": "#006341",
-    "shortName": "SE Louisiana",
-    "divs": [
-      null, 23, 23, 23, 23, 24
-    ]
-  },
-  {
-    "name": "Tarleton State",
-    "abbreviation": "TAR",
-    "color": "#4F2D7F",
-    "divs": [
-      null, null, null, 23, 23, 24
-    ]
-  },
-  {
-    "name": "Nicholls State",
-    "abbreviation": "NIC",
-    "color": "#C41230",
-    "divs": [
-      null, 23, 23, 23, 23, 25
-    ]
-  },
-  {
-    "name": "Prairie View A&M",
-    "abbreviation": "PVAMU",
-    "color": "#330066",
-    "shortName": "PVAMU",
-    "divs": [
-      null, 23, 23, 23, 23, 25
-    ]
-  },
-  {
-    "name": "Sam Houston State",
-    "abbreviation": "SHSU",
-    "color": "#F78E1E",
-    "shortName": "SHSU",
-    "divs": [
-      null, 23, 23, 23, 23, 25
-    ]
-  },
-  {
-    "name": "Lamar",
-    "abbreviation": "LU",
-    "color": "#E31937",
-    "divs": [
-      null, 23, 23, 23, 23, 25
-    ]
-  },
-  {
-    "name": "Grambling State",
-    "abbreviation": "GSU",
-    "color": "#ECAA00",
-    "divs": [
-      null, 23, 23, 23, 23, 25
-    ]
-  },
-  {
-    "name": "Southern",
-    "abbreviation": "SUBR",
-    "color": "#69B3E7",
-    "divs": [
-      null, 23, 23, 23, 23, 25
-    ]
-  },
-  {
-    "name": "Houston Baptist",
-    "abbreviation": "HBU",
-    "color": "#00529C",
-    "divs": [
-      null, 23, 23, 23, 23, 25
-    ]
-  },
-  {
-    "name": "UTRGV",
-    "abbreviation": "UTRGV",
-    "color": "#04173C",
-    "divs": [
-      null, null, null, null, null, 25
-    ]
-  },
-  {
-    "name": "Montana State",
-    "abbreviation": "MTSU",
-    "color": "#00205B",
-    "divs": [
-      null, 9, 9, 9, 51, 49
-    ]
-  },
-  {
-    "name": "Montana",
-    "abbreviation": "UM",
-    "color": "#660033",
-    "divs": [
-      null, 9, 9, 9, 51, 49
-    ]
-  },
-  {
-    "name": "Portland State",
-    "abbreviation": "PDX",
-    "color": "#154734",
-    "divs": [
-      null, 9, 9, 9, 52, 49
-    ]
-  },
-  {
-    "name": "Idaho State",
-    "abbreviation": "IDSU",
-    "color": "#F47920",
-    "divs": [
-      null, 9, 9, 9, 51, 49
-    ]
-  },
-  {
-    "name": "Idaho",
-    "abbreviation": "UOFI",
-    "color": "#B3A369",
-    "divs": [
-      null, 9, 9, 9, 51, 49
-    ]
-  },
-  {
-    "name": "Eastern Washington",
-    "abbreviation": "EWU",
-    "color": "#A10022",
-    "shortName": "E. Washington",
-    "divs": [
-      null, 9, 9, 9, 52, 49
-    ]
-  },
-  {
-    "name": "Weber State",
-    "abbreviation": "WESU",
-    "color": "#4B2682",
-    "divs": [
-      null, 10, 9, 9, 52, 49
-    ]
-  },
-  {
-    "name": "Cal Poly",
-    "abbreviation": "CPSU",
-    "color": "#003831",
-    "divs": [
-      null, 9, 9, 9, 52, 50
-    ]
-  },
-  {
-    "name": "San Diego",
-    "abbreviation": "USND",
-    "color": "#003B70",
-    "divs": [
-      null, 9, 9, 9, 52, 50
-    ]
-  },
-  {
-    "name": "Dixie State",
-    "abbreviation": "DSU",
-    "color": "#C21B32",
-    "divs": [
-      null, null, 9, 9, 51, 50
-    ]
-  },
-  {
-    "name": "Sacramento State",
-    "abbreviation": "CSUS",
-    "color": "#043927",
-    "shortName": "Sac State",
-    "divs": [
-      null, 9, 9, 9, 52, 50
-    ]
-  },
-  {
-    "name": "Southern Utah",
-    "abbreviation": "SUU",
-    "color": "#C41425",
-    "divs": [
-      null, 9, 9, 9, 51, 50
-    ]
-  },
-  {
-    "name": "UC Davis",
-    "abbreviation": "UCD",
-    "color": "#002855",
-    "divs": [
-      null, 9, 9, 9, 52, 50
-    ]
-  },
-  {
-    "name": "Northern Arizona",
-    "abbreviation": "NAU",
-    "color": "#003466",
-    "divs": [
-      null, 9, 9, 9, 51, 50
-    ]
-  }
+    {
+        "name": "Stony Brook",
+        "abbreviation": "SBU",
+        "color": "#990000",
+        "divs": [
+            null, 1, 3, 3, 3, 3
+        ]
+    },
+    {
+        "name": "Fordham",
+        "abbreviation": "FDHM",
+        "color": "#95003A",
+        "divs": [
+            null, 1, 3, 3, 3, 3
+        ]
+    },
+    {
+        "name": "Sacred Heart",
+        "abbreviation": "SHU",
+        "color": "#CD1041",
+        "divs": [
+            null, 1, 3, 3, 3, 3
+        ]
+    },
+    {
+        "name": "Long Island",
+        "abbreviation": "LIU",
+        "color": "#3d9be1",
+        "divs": [
+            null, null, 3, 3, 3, 3
+        ]
+    },
+    {
+        "name": "Albany",
+        "abbreviation": "UA",
+        "color": "#46166B",
+        "divs": [
+            null, 1, 3, 3, 3, 3
+        ]
+    },
+    {
+        "name": "Central Connecticut",
+        "abbreviation": "CCSU",
+        "color": "#1A4784",
+        "shortName": "Central CT",
+        "divs": [
+            null, 1, 3, 3, 3, 3
+        ]
+    },
+    {
+        "name": "Mississippi Valley State",
+        "abbreviation": "MVSU",
+        "color": "#046A38",
+        "shortName": "Miss. Valley St.",
+        "divs": [
+            null, 11, 11, 11, 11, 11
+        ]
+    },
+    {
+        "name": "Southern Illinois",
+        "abbreviation": "SIU",
+        "color": "#720000",
+        "divs": [
+            null, 5, 11, 11, 11, 11
+        ]
+    },
+    {
+        "name": "Arkansas-Pine Bluff",
+        "abbreviation": "UAPB",
+        "color": "#EEB310",
+        "shortName": "Ark.-Pine Bluff",
+        "divs": [
+            null, 11, 11, 11, 11, 11
+        ]
+    },
+    {
+        "name": "Jackson State",
+        "abbreviation": "JSUMS",
+        "color": "#002147",
+        "divs": [
+            null, 11, 11, 11, 11, 11
+        ]
+    },
+    {
+        "name": "Alcorn State",
+        "abbreviation": "ASU",
+        "color": "#46166A",
+        "divs": [
+            null, 11, 11, 11, 11, 11
+        ]
+    },
+    {
+        "name": "Southeast Missouri",
+        "abbreviation": "SEMO",
+        "color": "#C8102E",
+        "shortName": "SE Missouri",
+        "divs": [
+            null, 11, 11, 11, 11, 11
+        ]
+    },
+    {
+        "name": "Central Arkansas",
+        "abbreviation": "UCA",
+        "color": "#4F2D7F",
+        "divs": [
+            null, 11, 11, 11, 11, 11
+        ]
+    },
+    {
+        "name": "Jacksonville State",
+        "abbreviation": "JSU",
+        "color": "#CC0000",
+        "shortName": "Jacksonville St.",
+        "divs": [
+            null, 13, 14, 14, 14, 17
+        ]
+    },
+    {
+        "name": "Alabama A&M",
+        "abbreviation": "AAMU",
+        "color": "#660000",
+        "divs": [
+            null, 13, 14, 14, 14, 17
+        ]
+    },
+    {
+        "name": "Samford",
+        "abbreviation": "SAM",
+        "color": "#C4161D",
+        "divs": [
+            null, 13, 14, 14, 14, 17
+        ]
+    },
+    {
+        "name": "North Alabama",
+        "abbreviation": "UNA",
+        "color": "#46166B",
+        "divs": [
+            null, null, null, 14, 14, 17
+        ]
+    },
+    {
+        "name": "Chattanooga",
+        "abbreviation": "UTC",
+        "color": "#00386B",
+        "divs": [
+            null, 13, 14, 14, 14, 17
+        ]
+    },
+    {
+        "name": "East Tennessee State",
+        "abbreviation": "ETSU",
+        "color": "#041E42",
+        "shortName": "ETSU",
+        "divs": [
+            null, 13, 14, 14, 14, 17
+        ]
+    },
+    {
+        "name": "Alabama State",
+        "abbreviation": "ALASU",
+        "color": "#C99700",
+        "divs": [
+            null, 13, 15, 14, 14, 17
+        ]
+    },
+    {
+        "name": "VMI",
+        "abbreviation": "VMI",
+        "color": "#AE122A",
+        "divs": [
+            null, 19, 19, 19, 19, 19
+        ]
+    },
+    {
+        "name": "Delaware",
+        "abbreviation": "UDEL",
+        "color": "#00539F",
+        "divs": [
+            null, 19, 19, 19, 19, 19
+        ]
+    },
+    {
+        "name": "Delaware State",
+        "abbreviation": "DESU",
+        "color": "#EE3124",
+        "divs": [
+            null, 19, 19, 19, 19, 19
+        ]
+    },
+    {
+        "name": "James Madison",
+        "abbreviation": "JMU",
+        "color": "#450084",
+        "divs": [
+            null, 19, 19, 19, 19, 19
+        ]
+    },
+    {
+        "name": "William & Mary",
+        "abbreviation": "WM",
+        "color": "#115740",
+        "divs": [
+            null, 19, 19, 19, 19, 19
+        ]
+    },
+    {
+        "name": "Richmond",
+        "abbreviation": "UR",
+        "color": "#C32032",
+        "divs": [
+            null, 19, 19, 19, 19, 19
+        ]
+    },
+    {
+        "name": "Bethune-Cookman",
+        "abbreviation": "B-CU",
+        "color": "#6F263D",
+        "shortName": "Bethune-Cook.",
+        "divs": [
+            null, 13, 15, 15, 15, 16
+        ]
+    },
+    {
+        "name": "Kennesaw State",
+        "abbreviation": "KSU",
+        "color": "#0B1315",
+        "divs": [
+            null, 13, 15, 15, 15, 16
+        ]
+    },
+    {
+        "name": "Campbell",
+        "abbreviation": "CAMP",
+        "color": "#E87722",
+        "divs": [
+            null, 13, 14, 15, 15, 16
+        ]
+    },
+    {
+        "name": "Mercer",
+        "abbreviation": "MERC",
+        "color": "#CB5307",
+        "divs": [
+            null, 13, 15, 15, 15, 16
+        ]
+    },
+    {
+        "name": "Florida A&M",
+        "abbreviation": "FAMU",
+        "color": "#F4811F",
+        "divs": [
+            null, 13, 15, 15, 15, 16
+        ]
+    },
+    {
+        "name": "Stetson",
+        "abbreviation": "STET",
+        "color": "#006747",
+        "divs": [
+            null, 13, 15, 15, 15, 16
+        ]
+    },
+    {
+        "name": "Jacksonville",
+        "abbreviation": "JU",
+        "color": "#084E44",
+        "divs": [
+            null, 13, 15, 15, 15, 16
+        ]
+    },
+    {
+        "name": "Princeton",
+        "abbreviation": "PRIN",
+        "color": "#FF671F",
+        "divs": [
+            null, 20, 20, 20, 20, 20
+        ]
+    },
+    {
+        "name": "Penn",
+        "abbreviation": "PENN",
+        "color": "#990000",
+        "divs": [
+            null, 20, 20, 20, 20, 20
+        ]
+    },
+    {
+        "name": "Yale",
+        "abbreviation": "YALE",
+        "color": "#00356b",
+        "divs": [
+            null, 20, 20, 20, 20, 20
+        ]
+    },
+    {
+        "name": "Brown",
+        "abbreviation": "BRWN",
+        "color": "#381C00",
+        "divs": [
+            null, 20, 20, 20, 20, 20
+        ]
+    },
+    {
+        "name": "Dartmouth",
+        "abbreviation": "DART",
+        "color": "#005F2F",
+        "divs": [
+            null, 20, 20, 20, 20, 20
+        ]
+    },
+    {
+        "name": "Columbia",
+        "abbreviation": "COLU",
+        "color": "#99CAEA",
+        "divs": [
+            null, 20, 20, 20, 20, 20
+        ]
+    },
+    {
+        "name": "Harvard",
+        "abbreviation": "HARV",
+        "color": "#A51C30",
+        "divs": [
+            null, 20, 20, 20, 20, 20
+        ]
+    },
+    {
+        "name": "Cornell",
+        "abbreviation": "CU",
+        "color": "#B31B1B",
+        "divs": [
+            null, 20, 20, 20, 20, 20
+        ]
+    },
+    {
+        "name": "Monmouth",
+        "abbreviation": "MON",
+        "color": "#041E42",
+        "divs": [
+            null, 22, 22, 22, 22, 22
+        ]
+    },
+    {
+        "name": "Wagner",
+        "abbreviation": "WAG",
+        "color": "#004331",
+        "divs": [
+            null, 22, 22, 22, 22, 22
+        ]
+    },
+    {
+        "name": "Hampton",
+        "abbreviation": "HU",
+        "color": "#265198",
+        "divs": [
+            null, 22, 22, 22, 22, 22
+        ]
+    },
+    {
+        "name": "Howard",
+        "abbreviation": "HOW",
+        "color": "#003A63",
+        "divs": [
+            null, 22, 22, 22, 22, 22
+        ]
+    },
+    {
+        "name": "Georgetown",
+        "abbreviation": "GTU",
+        "color": "#00205C",
+        "divs": [
+            null, 22, 22, 22, 22, 22
+        ]
+    },
+    {
+        "name": "Norfolk State",
+        "abbreviation": "NSU",
+        "color": "#007A53",
+        "divs": [
+            null, 22, 22, 22, 22, 22
+        ]
+    },
+    {
+        "name": "Lehigh",
+        "abbreviation": "LEHI",
+        "color": "#4B2913",
+        "divs": [
+            null, 21, 21, 21, 21, 21
+        ]
+    },
+    {
+        "name": "Marist",
+        "abbreviation": "MAR",
+        "color": "#C8102E",
+        "divs": [
+            null, 21, 21, 21, 21, 21
+        ]
+    },
+    {
+        "name": "Colgate",
+        "abbreviation": "COLG",
+        "color": "#862633",
+        "divs": [
+            null, 21, 21, 21, 21, 21
+        ]
+    },
+    {
+        "name": "St. Francis",
+        "abbreviation": "SFU",
+        "color": "#BD1F25",
+        "divs": [
+            null, 21, 21, 21, 21, 21
+        ]
+    },
+    {
+        "name": "Bucknell",
+        "abbreviation": "BCK",
+        "color": "#EF5B0C",
+        "divs": [
+            null, 21, 21, 21, 21, 21
+        ]
+    },
+    {
+        "name": "Lafayette",
+        "abbreviation": "LAF",
+        "color": "#910029",
+        "divs": [
+            null, 21, 21, 21, 21, 21
+        ]
+    },
+    {
+        "name": "Holy Cross",
+        "abbreviation": "CHC",
+        "color": "#602D89",
+        "divs": [
+            null, 1, 2, 2, 2, 2
+        ]
+    },
+    {
+        "name": "Maine",
+        "abbreviation": "UME",
+        "color": "#B0D7FF",
+        "divs": [
+            null, 1, 2, 2, 2, 2
+        ]
+    },
+    {
+        "name": "Merrimack",
+        "abbreviation": "MU",
+        "color": "#06345b",
+        "divs": [
+            null, null, 2, 2, 2, 2
+        ]
+    },
+    {
+        "name": "New Hampshire",
+        "abbreviation": "UNH",
+        "color": "#001D52",
+        "divs": [
+            null, 1, 2, 2, 2, 2
+        ]
+    },
+    {
+        "name": "Bryant",
+        "abbreviation": "BRY",
+        "color": "#231F20",
+        "divs": [
+            null, 1, 2, 2, 2, 2
+        ]
+    },
+    {
+        "name": "Rhode Island",
+        "abbreviation": "URI",
+        "color": "#002147",
+        "divs": [
+            null, 1, 2, 2, 2, 2
+        ]
+    },
+    {
+        "name": "North Carolina Central",
+        "abbreviation": "NCCU",
+        "color": "#862633",
+        "shortName": "NC Central",
+        "divs": [
+            null, 26, 27, 27, 27, 27
+        ]
+    },
+    {
+        "name": "Davidson",
+        "abbreviation": "DAV",
+        "color": "#BF0C26",
+        "divs": [
+            null, 26, 27, 27, 27, 27
+        ]
+    },
+    {
+        "name": "Gardner-Webb",
+        "abbreviation": "GWU",
+        "color": "#A6192E",
+        "divs": [
+            null, 26, 27, 27, 27, 27
+        ]
+    },
+    {
+        "name": "North Carolina A&T",
+        "abbreviation": "NCAT",
+        "color": "#004684",
+        "shortName": "NCAT",
+        "divs": [
+            null, 26, 27, 27, 27, 27
+        ]
+    },
+    {
+        "name": "Elon",
+        "abbreviation": "ELON",
+        "color": "#73000A",
+        "divs": [
+            null, 26, 27, 27, 27, 27
+        ]
+    },
+    {
+        "name": "Western Carolina",
+        "abbreviation": "WCU",
+        "color": "#592C88",
+        "divs": [
+            null, 26, 27, 27, 27, 27
+        ]
+    },
+    {
+        "name": "Wofford",
+        "abbreviation": "WOFF",
+        "color": "#886E4C",
+        "divs": [
+            null, 26, 28, 28, 28, 28
+        ]
+    },
+    {
+        "name": "Charleston Southern",
+        "abbreviation": "CSU",
+        "color": "#002855",
+        "shortName": "CSU",
+        "divs": [
+            null, 26, 28, 28, 28, 28
+        ]
+    },
+    {
+        "name": "The Citadel",
+        "abbreviation": "TC",
+        "color": "#3975B7",
+        "divs": [
+            null, 26, 28, 28, 28, 28
+        ]
+    },
+    {
+        "name": "South Carolina State",
+        "abbreviation": "SCSU",
+        "color": "#841A2B",
+        "shortName": "SC State",
+        "divs": [
+            null, 26, 28, 28, 28, 28
+        ]
+    },
+    {
+        "name": "Furman",
+        "abbreviation": "FURM",
+        "color": "#582C83",
+        "divs": [
+            null, 26, 28, 28, 28, 28
+        ]
+    },
+    {
+        "name": "Presbyterian",
+        "abbreviation": "PC",
+        "color": "#0060A9",
+        "divs": [
+            null, 26, 28, 28, 28, 28
+        ]
+    },
+    {
+        "name": "Villanova",
+        "abbreviation": "VILL",
+        "color": "#002664",
+        "divs": [
+            null, 18, 18, 18, 18, 18
+        ]
+    },
+    {
+        "name": "Duquesne",
+        "abbreviation": "DUQ",
+        "color": "#D31245",
+        "divs": [
+            null, 18, 18, 18, 18, 18
+        ]
+    },
+    {
+        "name": "Youngstown State",
+        "abbreviation": "YSU",
+        "color": "#C8102E",
+        "shortName": "Youngstown St.",
+        "divs": [
+            null, 18, 18, 18, 18, 18
+        ]
+    },
+    {
+        "name": "Towson",
+        "abbreviation": "TU",
+        "color": "#FFCC00",
+        "divs": [
+            null, 18, 18, 18, 18, 18
+        ]
+    },
+    {
+        "name": "Robert Morris",
+        "abbreviation": "RMU",
+        "color": "#14234B",
+        "divs": [
+            null, 18, 18, 18, 18, 18
+        ]
+    },
+    {
+        "name": "Morgan State",
+        "abbreviation": "MSU",
+        "color": "#002D74",
+        "divs": [
+            null, 18, 18, 18, 18, 18
+        ]
+    },
+    {
+        "name": "Murray State",
+        "abbreviation": "MURR",
+        "color": "#002144",
+        "divs": [
+            null, 12, 12, 12, 12, 12
+        ]
+    },
+    {
+        "name": "Austin Peay",
+        "abbreviation": "APSU",
+        "color": "#BA0C2F",
+        "divs": [
+            null, 12, 12, 12, 12, 12
+        ]
+    },
+    {
+        "name": "Eastern Kentucky",
+        "abbreviation": "EKU",
+        "color": "#4C151E",
+        "shortName": "EKU",
+        "divs": [
+            null, 12, 12, 12, 12, 12
+        ]
+    },
+    {
+        "name": "UT Martin",
+        "abbreviation": "UTM",
+        "color": "#002649",
+        "divs": [
+            null, 12, 12, 12, 12, 12
+        ]
+    },
+    {
+        "name": "Tennessee Tech",
+        "abbreviation": "TTU",
+        "color": "#4F2984",
+        "divs": [
+            null, 12, 12, 12, 12, 12
+        ]
+    },
+    {
+        "name": "Tennessee State",
+        "abbreviation": "TNSU",
+        "color": "#00539F",
+        "divs": [
+            null, 12, 12, 12, 12, 12
+        ]
+    },
+    {
+        "name": "Morehead State",
+        "abbreviation": "MORE",
+        "color": "#005EB8",
+        "divs": [
+            null, 12, 12, 12, 12, 12
+        ]
+    },
+    {
+        "name": "Savannah State",
+        "abbreviation": "SSU",
+        "color": "#F24D17",
+        "divs": [
+            null, 13, 14, null, null, null
+        ]
+    },
+    {
+        "name": "Northern Iowa",
+        "abbreviation": "UNI",
+        "color": "#4B116F",
+        "divs": [
+            null, 4, 6, 6, 6, 8
+        ]
+    },
+    {
+        "name": "Northern Colorado",
+        "abbreviation": "UNCO",
+        "color": "#013C65",
+        "shortName": "N. Colorado",
+        "divs": [
+            null, 9, 6, 6, 6, 8
+        ]
+    },
+    {
+        "name": "Eastern Illinois",
+        "abbreviation": "EIU",
+        "color": "#003399",
+        "divs": [
+            null, 5, 7, 7, 7, 8
+        ]
+    },
+    {
+        "name": "Dayton",
+        "abbreviation": "UD",
+        "color": "#CE1141",
+        "divs": [
+            null, 5, 7, 7, 7, 8
+        ]
+    },
+    {
+        "name": "Drake",
+        "abbreviation": "DRKE",
+        "color": "#003B73",
+        "divs": [
+            null, 4, 6, 6, 6, 8
+        ]
+    },
+    {
+        "name": "Valparaiso",
+        "abbreviation": "VLPO",
+        "color": "#381E0E",
+        "divs": [
+            null, 5, 7, 7, 7, 8
+        ]
+    },
+    {
+        "name": "Western Illinois",
+        "abbreviation": "WIU",
+        "color": "#663399",
+        "divs": [
+            null, 4, 7, 7, 7, 8
+        ]
+    },
+    {
+        "name": "Butler",
+        "abbreviation": "BUT",
+        "color": "#13294B",
+        "divs": [
+            null, 5, 7, 7, 7, 8
+        ]
+    },
+    {
+        "name": "Indiana State",
+        "abbreviation": "INSU",
+        "color": "#0142BC",
+        "divs": [
+            null, 5, 7, 7, 7, 8
+        ]
+    },
+    {
+        "name": "North Dakota State",
+        "abbreviation": "NDSU",
+        "color": "#005643",
+        "shortName": "NDSU",
+        "divs": [
+            null, 4, 6, 6, 6, 8
+        ]
+    },
+    {
+        "name": "Missouri State",
+        "abbreviation": "MOSU",
+        "color": "#5E0009",
+        "divs": [
+            null, 11, 11, 11, 11, 8
+        ]
+    },
+    {
+        "name": "South Dakota State",
+        "abbreviation": "SDSU",
+        "color": "#0032A0",
+        "shortName": "SDSU",
+        "divs": [
+            null, 4, 6, 6, 6, 8
+        ]
+    },
+    {
+        "name": "Illinois State",
+        "abbreviation": "ILSU",
+        "color": "#CE1126",
+        "divs": [
+            null, 5, 7, 7, 7, 8
+        ]
+    },
+    {
+        "name": "South Dakota",
+        "abbreviation": "USD",
+        "color": "#AD0000",
+        "divs": [
+            null, 4, 6, 6, 6, 8
+        ]
+    },
+    {
+        "name": "North Dakota",
+        "abbreviation": "UND",
+        "color": "#009A44",
+        "divs": [
+            null, 4, 6, 6, 6, 8
+        ]
+    },
+    {
+        "name": "St. Thomas",
+        "abbreviation": "STM",
+        "color": "#510C76",
+        "divs": [
+            null, null, null, null, null, 8
+        ]
+    },
+    {
+        "name": "Texas Southern",
+        "abbreviation": "TSU",
+        "color": "#6F263D",
+        "divs": [
+            null, 23, 23, 23, 23, 24
+        ]
+    },
+    {
+        "name": "Incarnate Word",
+        "abbreviation": "UIW",
+        "color": "#CB333B",
+        "divs": [
+            null, 23, 23, 23, 23, 24
+        ]
+    },
+    {
+        "name": "Stephen F. Austin",
+        "abbreviation": "SFASU",
+        "color": "#3F2A55",
+        "shortName": "SFA",
+        "divs": [
+            null, 23, 23, 23, 23, 24
+        ]
+    },
+    {
+        "name": "Abilene Christian",
+        "abbreviation": "ACU",
+        "color": "#4E2683",
+        "divs": [
+            null, 23, 23, 23, 23, 24
+        ]
+    },
+    {
+        "name": "McNeese State",
+        "abbreviation": "MCNSU",
+        "color": "#00529B",
+        "divs": [
+            null, 23, 23, 23, 23, 24
+        ]
+    },
+    {
+        "name": "Northwestern State",
+        "abbreviation": "NSULA",
+        "color": "#492F92",
+        "shortName": "NSULA",
+        "divs": [
+            null, 23, 23, 23, 23, 24
+        ]
+    },
+    {
+        "name": "Southeastern Louisiana",
+        "abbreviation": "SLU",
+        "color": "#006341",
+        "shortName": "SE Louisiana",
+        "divs": [
+            null, 23, 23, 23, 23, 24
+        ]
+    },
+    {
+        "name": "Tarleton State",
+        "abbreviation": "TAR",
+        "color": "#4F2D7F",
+        "divs": [
+            null, null, null, 23, 23, 24
+        ]
+    },
+    {
+        "name": "Nicholls State",
+        "abbreviation": "NIC",
+        "color": "#C41230",
+        "divs": [
+            null, 23, 23, 23, 23, 25
+        ]
+    },
+    {
+        "name": "Prairie View A&M",
+        "abbreviation": "PVAMU",
+        "color": "#330066",
+        "shortName": "PVAMU",
+        "divs": [
+            null, 23, 23, 23, 23, 25
+        ]
+    },
+    {
+        "name": "Sam Houston State",
+        "abbreviation": "SHSU",
+        "color": "#F78E1E",
+        "shortName": "SHSU",
+        "divs": [
+            null, 23, 23, 23, 23, 25
+        ]
+    },
+    {
+        "name": "Lamar",
+        "abbreviation": "LU",
+        "color": "#E31937",
+        "divs": [
+            null, 23, 23, 23, 23, 25
+        ]
+    },
+    {
+        "name": "Grambling State",
+        "abbreviation": "GSU",
+        "color": "#ECAA00",
+        "divs": [
+            null, 23, 23, 23, 23, 25
+        ]
+    },
+    {
+        "name": "Southern",
+        "abbreviation": "SUBR",
+        "color": "#69B3E7",
+        "divs": [
+            null, 23, 23, 23, 23, 25
+        ]
+    },
+    {
+        "name": "Houston Baptist",
+        "abbreviation": "HBU",
+        "color": "#00529C",
+        "divs": [
+            null, 23, 23, 23, 23, 25
+        ]
+    },
+    {
+        "name": "UTRGV",
+        "abbreviation": "UTRGV",
+        "color": "#04173C",
+        "divs": [
+            null, null, null, null, null, 25
+        ]
+    },
+    {
+        "name": "Montana State",
+        "abbreviation": "MTSU",
+        "color": "#00205B",
+        "divs": [
+            null, 9, 9, 9, 51, 49
+        ]
+    },
+    {
+        "name": "Montana",
+        "abbreviation": "UM",
+        "color": "#660033",
+        "divs": [
+            null, 9, 9, 9, 51, 49
+        ]
+    },
+    {
+        "name": "Portland State",
+        "abbreviation": "PDX",
+        "color": "#154734",
+        "divs": [
+            null, 9, 9, 9, 52, 49
+        ]
+    },
+    {
+        "name": "Idaho State",
+        "abbreviation": "IDSU",
+        "color": "#F47920",
+        "divs": [
+            null, 9, 9, 9, 51, 49
+        ]
+    },
+    {
+        "name": "Idaho",
+        "abbreviation": "UOFI",
+        "color": "#B3A369",
+        "divs": [
+            null, 9, 9, 9, 51, 49
+        ]
+    },
+    {
+        "name": "Eastern Washington",
+        "abbreviation": "EWU",
+        "color": "#A10022",
+        "shortName": "E. Washington",
+        "divs": [
+            null, 9, 9, 9, 52, 49
+        ]
+    },
+    {
+        "name": "Weber State",
+        "abbreviation": "WESU",
+        "color": "#4B2682",
+        "divs": [
+            null, 10, 9, 9, 52, 49
+        ]
+    },
+    {
+        "name": "Cal Poly",
+        "abbreviation": "CPSU",
+        "color": "#003831",
+        "divs": [
+            null, 9, 9, 9, 52, 50
+        ]
+    },
+    {
+        "name": "San Diego",
+        "abbreviation": "USND",
+        "color": "#003B70",
+        "divs": [
+            null, 9, 9, 9, 52, 50
+        ]
+    },
+    {
+        "name": "Dixie State",
+        "abbreviation": "DSU",
+        "color": "#C21B32",
+        "divs": [
+            null, null, 9, 9, 51, 50
+        ]
+    },
+    {
+        "name": "Sacramento State",
+        "abbreviation": "CSUS",
+        "color": "#043927",
+        "shortName": "Sac State",
+        "divs": [
+            null, 9, 9, 9, 52, 50
+        ]
+    },
+    {
+        "name": "Southern Utah",
+        "abbreviation": "SUU",
+        "color": "#C41425",
+        "divs": [
+            null, 9, 9, 9, 51, 50
+        ]
+    },
+    {
+        "name": "UC Davis",
+        "abbreviation": "UCD",
+        "color": "#002855",
+        "divs": [
+            null, 9, 9, 9, 52, 50
+        ]
+    },
+    {
+        "name": "Northern Arizona",
+        "abbreviation": "NAU",
+        "color": "#003466",
+        "divs": [
+            null, 9, 9, 9, 51, 50
+        ]
+    }
 ]

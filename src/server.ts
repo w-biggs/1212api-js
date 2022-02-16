@@ -1,37 +1,54 @@
 import { PrismaClient } from '@prisma/client';
+import * as fs from 'fs';
+import * as path from 'path';
+import * as csv from 'fast-csv';
 import divisions from './divisions.json';
-import teams from './fcsTeamsDivs.json';
 
 const prisma = new PrismaClient();
 
 async function main() {
-  /*for (const team of teams) {
-    const newTeam = await prisma.team.create({
-      data: {
-        school: team.name,
-        shortSchool: team.shortName,
-        abbreviation: team.abbreviation,
-        color: team.color,
-        divisionId: team.divs[team.divs.length - 1]
-      }
-    });
-    let seasonNo = 1;
-    for (const division of team.divs) {
-      if (division !== null) {
-        await prisma.teamDivHistory.create({
+  const teams = [];
+  fs.createReadStream(path.resolve(__dirname, 'fbsTeamsDivs.csv'))
+    .pipe(csv.parse({headers: true}))
+    .on('error', console.error)
+    .on('data', async team => {
+      const count = await prisma.team.count({
+        where: {
+          school: team.name
+        }
+      });
+      if (count === 0) {
+        const newTeam = await prisma.team.create({
           data: {
-            teamId: newTeam.id,
-            divisionId: division,
-            seasonNo
+            school: team.name,
+            shortSchool: team.shortName === '' ? null : team.shortName,
+            abbreviation: team.abbreviation,
+            color: team.color,
+            divisionId: parseInt(team.div, 10)
           }
         });
+        for (let i = 0; i < 6; i++) {
+          await prisma.teamDivHistory.create({
+            data: {
+              teamId: newTeam.id,
+              divisionId: parseInt(team.div, 10),
+              seasonNo: i + 1
+            }
+          });
+        }
+        console.log(`inserted ${team.name}`);
       }
-      seasonNo++;
-    }
-  }*/
+    });
 
-  const newTeams = await prisma.team.findMany();
-  console.log(newTeams);
+  const fbsTeams = await prisma.team.findMany({
+    where: {
+      id: {
+        gt: 131
+      }
+    }
+  });
+
+  console.log(fbsTeams);
 }
 
 main()
