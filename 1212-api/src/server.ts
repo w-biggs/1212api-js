@@ -2,7 +2,14 @@ import { PrismaClient } from '@prisma/client';
 import * as fs from 'fs';
 import * as path from 'path';
 import * as csv from 'fast-csv';
-import divisions from './divisions.json';
+
+/**
+ * IMPORT TODO
+ * Teams and division history √
+ * Games (id, week_no, season_no, is_neutral) + GameTeam + GameThread + GameThreadTeam
+ * Plays + Coaches
+ * Metrics
+ */
 
 const prisma = new PrismaClient();
 
