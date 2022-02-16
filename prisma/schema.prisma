@@ -122,9 +122,9 @@ model GameTeam {
   team          Team            @relation(fields: [teamId], references: [id])
   teamId        Int
   isHome        Boolean
-  threadTeam    GameThreadTeam
-  metrics       TeamMetricsGame
-  coachMetrics  CoachMetricsGame
+  threadTeam    GameThreadTeam? // should be req but prisma can't enforce it
+  metrics       TeamMetricsGame? // should be req but prisma can't enforce it
+  coachMetrics  CoachMetricsGame? // should be req but prisma can't enforce it
   quarters      GameTeamQuarter[]
   @@id([gameId, teamId])
   @@unique([gameId, isHome])
