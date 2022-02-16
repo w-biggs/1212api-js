@@ -42,12 +42,11 @@ model Division {
 model Team {
   id            Int       @id @default(autoincrement())
   school        String    @db.VarChar(255)
-  nickname      String    @db.VarChar(255)
-  shortSchool   String    @db.VarChar(50)
+  shortSchool   String?   @db.VarChar(50)
   abbreviation  String    @db.VarChar(10)
   color         String    @db.Char(7)
-  division      Division  @relation(fields: [divisionId], references: [id])
-  divisionId    Int
+  division      Division?  @relation(fields: [divisionId], references: [id])
+  divisionId    Int?
   divHistory    TeamDivHistory[]
   seasonMetrics TeamMetricsSeason[]
   games         GameTeam[]
