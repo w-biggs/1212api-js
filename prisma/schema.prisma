@@ -125,7 +125,7 @@ model GameTeam {
   threadTeam    GameThreadTeam? // should be req but prisma can't enforce it
   metrics       TeamMetricsGame? // should be req but prisma can't enforce it
   coachMetrics  CoachMetricsGame? // should be req but prisma can't enforce it
-  quarters      GameTeamQuarter[]
+  quarterScores Int[]
   @@id([gameId, teamId])
   @@unique([gameId, isHome])
 }
@@ -166,15 +166,6 @@ model GameThreadTeam {
   offenseScheme   OffenseScheme
   defenseScheme   DefenseScheme
   @@id([gameId, teamId, threadId])
-}
-
-model GameTeamQuarter {
-  gameTeam        GameTeam?       @relation(fields: [gameId, teamId], references: [gameId, teamId]) // should be req but prisma doesnt let me
-  gameId          Int
-  teamId          Int
-  quarter         Int
-  score           Int
-  @@id([gameId, teamId])
 }
 
 // Plays
