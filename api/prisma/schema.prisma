@@ -162,6 +162,7 @@ enum OffenseScheme {
   PRO
   SPREAD
   AIR
+  UNKNOWN
 }
 
 enum DefenseScheme {
@@ -170,6 +171,7 @@ enum DefenseScheme {
   DS_43
   DS_34
   DS_33
+  UNKNOWN
 }
 
 model GameThreadTeam {
